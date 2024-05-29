@@ -24,7 +24,7 @@ public class NotificationServer extends Thread
 		}
 		catch (Exception e)
 		{
-			LOGGER.error("ConnectionNotify: Failed to create server socket on port {}", PORT);
+			LOGGER.error("ServerNotify: Failed to create server socket on port {}", PORT);
 		}
 	}
 
@@ -40,7 +40,7 @@ public class NotificationServer extends Thread
 				}
 				catch (Exception e)
 				{
-					LOGGER.error("ConnectionNotify: Failed to send message to socket");
+					LOGGER.error("ServerNotify: Failed to send message to socket");
 				}
 			}
 		}
@@ -60,7 +60,7 @@ public class NotificationServer extends Thread
 			}
 			catch (Exception e)
 			{
-				LOGGER.error("ConnectionNotify: Failed to accept connection on port {}", PORT);
+				LOGGER.error("ServerNotify: Failed to accept connection on port {}", PORT);
 			}
 		}
 	}
