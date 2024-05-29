@@ -1,7 +1,7 @@
 package name.connectionnotify;
 
 import java.util.ArrayList;
-
+import java.net.InetAddress;
 import java.net.ServerSocket;
 import java.net.Socket;
 
@@ -20,7 +20,7 @@ public class NotificationServer extends Thread
 		LOGGER = logger;
 		try
 		{
-			server_socket = new ServerSocket(PORT);
+			server_socket = new ServerSocket(PORT, 0, InetAddress.getByAddress(new byte[] {0, 0, 0, 0}));
 		}
 		catch (Exception e)
 		{

@@ -36,6 +36,7 @@ Then, run the following command to install the required dependencies:
 ```sh
 pip install -r requirements.txt
 ```
+* Be sure to change the `ADDRESS` variable in `notification_listener.py` to the IP address of the server you want to listen to. *
 
 To build the project, run the following command:
 

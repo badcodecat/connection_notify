@@ -4,7 +4,8 @@ import plyer
 
 import socket
 
-ADDRESS = '192.168.200.2'
+# Put the IP address of the server here
+ADDRESS = ''
 PORT = 14141
 
 def main():
