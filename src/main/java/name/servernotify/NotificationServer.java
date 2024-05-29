@@ -1,4 +1,4 @@
-package name.connectionnotify;
+package name.servernotify;
 
 import java.util.ArrayList;
 import java.net.InetAddress;

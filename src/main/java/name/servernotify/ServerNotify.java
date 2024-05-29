@@ -1,4 +1,4 @@
-package name.connectionnotify;
+package name.servernotify;
 
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerLifecycleEvents;
